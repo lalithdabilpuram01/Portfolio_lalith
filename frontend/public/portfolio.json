@@ -10,9 +10,9 @@
     ],
     "email": "lalith.dabilpuram01@gmail.com",
     "location": "Your City, Country",
-    "avatar_source": "github",
+    "avatar_source": "photo",
     "avatar_style": "neon",
-    "photo": null,
+    "photo": "photo.png",
     "social": {
       "github": {
         "url": "https://github.com/lalithdabilpuram01",
