@@ -1,12 +1,13 @@
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import { FiGithub, FiLinkedin, FiMail, FiArrowDown } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiMail, FiArrowDown, FiDownload } from "react-icons/fi";
 import ParticleBackground from "./ParticleBackground";
 import AvatarDisplay from "./AvatarDisplay";
 
 export default function Hero({ data }) {
   const { personal, summary } = data;
   const { github, linkedin } = personal.social;
+  const resume = personal.resume;
 
   const typingSeq = personal.taglines.flatMap((t) => [t, 2200]);
 
@@ -128,6 +129,17 @@ export default function Hero({ data }) {
             <FiMail className="group-hover:scale-110 transition-transform" />
             Contact Me
           </a>
+          {resume?.visible && resume?.filename && (
+            <a
+              href={`/${resume.filename}`}
+              download
+              className="group flex items-center gap-2 px-7 py-3 rounded-full bg-neon-green/10 border border-neon-green text-neon-green text-sm font-mono
+                         hover:bg-neon-green hover:text-bg-primary transition-all duration-300 glow-green"
+            >
+              <FiDownload className="group-hover:translate-y-0.5 transition-transform" />
+              Resume
+            </a>
+          )}
         </motion.div>
 
         {/* Scroll indicator */}

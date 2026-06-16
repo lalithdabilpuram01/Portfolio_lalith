@@ -71,6 +71,43 @@ async def remove_photo():
     return {"status": "removed"}
 
 
+@app.post("/api/upload-resume")
+async def upload_resume(file: UploadFile = File(...)):
+    allowed = {".pdf", ".doc", ".docx"}
+    ext = Path(file.filename).suffix.lower()
+    if ext not in allowed:
+        raise HTTPException(status_code=400, detail=f"Only PDF, DOC, DOCX allowed. Got {ext}")
+
+    # Always save as resume.pdf (or .docx) so the JSON filename stays stable
+    filename = f"resume{ext}"
+    dest = BASE_DIR.parent / "frontend" / "public" / filename
+    with dest.open("wb") as f:
+        shutil.copyfileobj(file.file, f)
+
+    # Update portfolio.json with filename
+    with open(DATA_FILE, "r") as f:
+        data = json.load(f)
+    if "resume" not in data["personal"]:
+        data["personal"]["resume"] = {"visible": False}
+    data["personal"]["resume"]["filename"] = filename
+    with open(DATA_FILE, "w") as f:
+        json.dump(data, f, indent=2)
+
+    return {"filename": filename}
+
+
+@app.patch("/api/resume-visibility")
+async def set_resume_visibility(visible: bool):
+    with open(DATA_FILE, "r") as f:
+        data = json.load(f)
+    if "resume" not in data["personal"]:
+        data["personal"]["resume"] = {"filename": None}
+    data["personal"]["resume"]["visible"] = visible
+    with open(DATA_FILE, "w") as f:
+        json.dump(data, f, indent=2)
+    return {"visible": visible}
+
+
 @app.get("/health")
 async def health():
     return {"status": "ok"}

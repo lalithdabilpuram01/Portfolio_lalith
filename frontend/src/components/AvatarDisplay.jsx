@@ -280,12 +280,6 @@ export default function AvatarDisplay({ personal }) {
         />
       </motion.div>
 
-      {/* Source label (small, below avatar) */}
-      {personal?.avatar_source === "github" && effectiveSrc && (
-        <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 whitespace-nowrap">
-          <span className="font-mono text-slate-600 text-xs">via GitHub</span>
-        </div>
-      )}
     </div>
   );
 }

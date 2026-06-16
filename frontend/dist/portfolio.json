@@ -10,12 +10,16 @@
     ],
     "email": "lalith.dabilpuram01@gmail.com",
     "location": "Your City, Country",
-    "avatar_source": "github",
+    "avatar_source": "photo",
     "avatar_style": "neon",
-    "photo": null,
+    "photo": "photo.png",
+    "resume": {
+      "filename": "resume.pdf",
+      "visible": false
+    },
     "social": {
       "github": {
-        "url": "https://github.com/yourusername",
+        "url": "https://github.com/lalithdabilpuram01",
         "visible": true
       },
       "linkedin": {
@@ -24,7 +28,9 @@
       }
     }
   },
-  "summary": "Passionate AI/ML Engineer with a deep focus on building intelligent, scalable systems that bridge the gap between cutting-edge research and real-world impact. Experienced in end-to-end machine learning pipelines \u2014 from data ingestion and feature engineering to model deployment and monitoring. I thrive on solving complex problems with data, turning ambiguity into actionable insights and production-grade AI solutions.",
+
+  "summary": "Passionate AI/ML Engineer with a deep focus on building intelligent, scalable systems that bridge the gap between cutting-edge research and real-world impact. Experienced in end-to-end machine learning pipelines — from data ingestion and feature engineering to model deployment and monitoring. I thrive on solving complex problems with data, turning ambiguity into actionable insights and production-grade AI solutions.",
+
   "experience": [
     {
       "id": 1,
@@ -40,15 +46,7 @@
         "Architected real-time feature pipelines using Apache Kafka and Spark Streaming processing 500K events/sec",
         "Led a team of 4 ML engineers to deliver a computer vision defect detection system with 97.3% accuracy"
       ],
-      "tech": [
-        "Python",
-        "PyTorch",
-        "LangChain",
-        "AWS SageMaker",
-        "Spark",
-        "Kafka",
-        "Docker"
-      ]
+      "tech": ["Python", "PyTorch", "LangChain", "AWS SageMaker", "Spark", "Kafka", "Docker"]
     },
     {
       "id": 2,
@@ -64,15 +62,7 @@
         "Collaborated with product teams to A/B test ML-driven features, resulting in 15% increase in retention",
         "Built interactive dashboards with Plotly Dash for real-time business KPI monitoring"
       ],
-      "tech": [
-        "Python",
-        "Scikit-learn",
-        "XGBoost",
-        "BERT",
-        "SQL",
-        "Plotly",
-        "Airflow"
-      ]
+      "tech": ["Python", "Scikit-learn", "XGBoost", "BERT", "SQL", "Plotly", "Airflow"]
     },
     {
       "id": 3,
@@ -87,16 +77,10 @@
         "Implemented and benchmarked 5+ graph neural network architectures for molecular property prediction",
         "Contributed to open-source NLP toolkit with 2K+ GitHub stars"
       ],
-      "tech": [
-        "Python",
-        "PyTorch",
-        "HuggingFace",
-        "NumPy",
-        "Pandas",
-        "GNN"
-      ]
+      "tech": ["Python", "PyTorch", "HuggingFace", "NumPy", "Pandas", "GNN"]
     }
   ],
+
   "skills": {
     "categories": [
       {
@@ -104,49 +88,25 @@
         "icon": "brain",
         "color": "green",
         "skills": [
-          "TensorFlow",
-          "PyTorch",
-          "Scikit-learn",
-          "Hugging Face",
-          "LangChain",
-          "LlamaIndex",
-          "XGBoost",
-          "LightGBM",
-          "OpenCV",
-          "YOLO",
-          "Stable Diffusion",
-          "RAG"
+          "TensorFlow", "PyTorch", "Scikit-learn", "Hugging Face",
+          "LangChain", "LlamaIndex", "XGBoost", "LightGBM",
+          "OpenCV", "YOLO", "Stable Diffusion", "RAG"
         ]
       },
       {
         "name": "Programming Languages",
         "icon": "code",
         "color": "cyan",
-        "skills": [
-          "Python",
-          "SQL",
-          "JavaScript",
-          "R",
-          "Bash",
-          "Scala",
-          "Julia"
-        ]
+        "skills": ["Python", "SQL", "JavaScript", "R", "Bash", "Scala", "Julia"]
       },
       {
         "name": "MLOps & Cloud",
         "icon": "cloud",
         "color": "purple",
         "skills": [
-          "AWS SageMaker",
-          "Google Vertex AI",
-          "Azure ML",
-          "MLflow",
-          "Weights & Biases",
-          "Docker",
-          "Kubernetes",
-          "Terraform",
-          "GitHub Actions",
-          "FastAPI"
+          "AWS SageMaker", "Google Vertex AI", "Azure ML",
+          "MLflow", "Weights & Biases", "Docker", "Kubernetes",
+          "Terraform", "GitHub Actions", "FastAPI"
         ]
       },
       {
@@ -154,17 +114,9 @@
         "icon": "database",
         "color": "cyan",
         "skills": [
-          "Apache Spark",
-          "Kafka",
-          "Airflow",
-          "dbt",
-          "Pandas",
-          "NumPy",
-          "PostgreSQL",
-          "MongoDB",
-          "Redis",
-          "Snowflake",
-          "BigQuery"
+          "Apache Spark", "Kafka", "Airflow", "dbt",
+          "Pandas", "NumPy", "PostgreSQL", "MongoDB",
+          "Redis", "Snowflake", "BigQuery"
         ]
       },
       {
@@ -172,31 +124,19 @@
         "icon": "chart",
         "color": "green",
         "skills": [
-          "Matplotlib",
-          "Seaborn",
-          "Plotly",
-          "Tableau",
-          "Power BI",
-          "Grafana",
-          "Streamlit",
-          "Dash"
+          "Matplotlib", "Seaborn", "Plotly", "Tableau",
+          "Power BI", "Grafana", "Streamlit", "Dash"
         ]
       }
     ]
   },
+
   "projects": [
     {
       "id": 1,
       "title": "LLM-Powered Research Assistant",
       "description": "An intelligent research assistant built with RAG architecture that synthesizes information from PDFs, web pages, and databases. Features multi-step reasoning, citation tracking, and a conversational interface.",
-      "tech": [
-        "Python",
-        "LangChain",
-        "OpenAI GPT-4",
-        "ChromaDB",
-        "FastAPI",
-        "React"
-      ],
+      "tech": ["Python", "LangChain", "OpenAI GPT-4", "ChromaDB", "FastAPI", "React"],
       "github": "https://github.com/yourusername/llm-research-assistant",
       "demo": "https://demo.example.com",
       "github_visible": true,
@@ -208,14 +148,7 @@
       "id": 2,
       "title": "Real-Time Fraud Detection System",
       "description": "End-to-end ML pipeline for detecting fraudulent transactions in real-time. Uses ensemble models with online learning, processing 10K+ transactions/second with sub-50ms latency.",
-      "tech": [
-        "Python",
-        "XGBoost",
-        "Kafka",
-        "Redis",
-        "Docker",
-        "AWS Lambda"
-      ],
+      "tech": ["Python", "XGBoost", "Kafka", "Redis", "Docker", "AWS Lambda"],
       "github": "https://github.com/yourusername/fraud-detection",
       "demo": null,
       "github_visible": true,
@@ -227,14 +160,7 @@
       "id": 3,
       "title": "Computer Vision Defect Inspector",
       "description": "Industrial quality control system using custom YOLO-based model to detect manufacturing defects on production lines. Achieved 97.3% accuracy with real-time video processing.",
-      "tech": [
-        "Python",
-        "PyTorch",
-        "YOLO",
-        "OpenCV",
-        "FastAPI",
-        "ONNX"
-      ],
+      "tech": ["Python", "PyTorch", "YOLO", "OpenCV", "FastAPI", "ONNX"],
       "github": "https://github.com/yourusername/defect-inspector",
       "demo": "https://demo.example.com/defect",
       "github_visible": true,
@@ -246,14 +172,7 @@
       "id": 4,
       "title": "Multimodal Sentiment Analyzer",
       "description": "Analyzes sentiment from text, audio, and facial expressions simultaneously using a fusion transformer architecture. Deployed as a REST API handling 1M+ requests/day.",
-      "tech": [
-        "Python",
-        "HuggingFace",
-        "librosa",
-        "PyTorch",
-        "FastAPI",
-        "Kubernetes"
-      ],
+      "tech": ["Python", "HuggingFace", "librosa", "PyTorch", "FastAPI", "Kubernetes"],
       "github": "https://github.com/yourusername/multimodal-sentiment",
       "demo": null,
       "github_visible": true,
@@ -265,14 +184,7 @@
       "id": 5,
       "title": "Neural Time Series Forecaster",
       "description": "Transformer-based forecasting model for financial time series that outperforms traditional ARIMA/LSTM baselines by 18%. Includes uncertainty quantification and anomaly detection.",
-      "tech": [
-        "Python",
-        "PyTorch",
-        "Pandas",
-        "Plotly",
-        "Streamlit",
-        "MLflow"
-      ],
+      "tech": ["Python", "PyTorch", "Pandas", "Plotly", "Streamlit", "MLflow"],
       "github": "https://github.com/yourusername/neural-forecaster",
       "demo": "https://forecaster-demo.streamlit.app",
       "github_visible": true,
@@ -284,14 +196,7 @@
       "id": 6,
       "title": "AutoML Platform",
       "description": "An internal AutoML tool that automates feature engineering, model selection, and hyperparameter tuning. Reduced model development time from weeks to hours for non-ML teams.",
-      "tech": [
-        "Python",
-        "Optuna",
-        "Scikit-learn",
-        "FastAPI",
-        "React",
-        "PostgreSQL"
-      ],
+      "tech": ["Python", "Optuna", "Scikit-learn", "FastAPI", "React", "PostgreSQL"],
       "github": "https://github.com/yourusername/automl-platform",
       "demo": null,
       "github_visible": true,
@@ -300,10 +205,11 @@
       "category": "MLOps"
     }
   ],
+
   "certifications": [
     {
       "id": 1,
-      "name": "Goold Cloud Professional Machine Learning Engineer",
+      "name": "Google Cloud Professional Machine Learning Engineer",
       "issuer": "Google Cloud",
       "issuer_short": "Google",
       "date": "Oct 2023",
