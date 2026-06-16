@@ -12,14 +12,16 @@ function resolvePhotoSrc(personal) {
       .replace(/\/$/, "")
       .split("/")[0];
     if (username && username !== "yourusername") {
-      return `https://github.com/${username}.png?size=400`;
+      return `https://avatars.githubusercontent.com/${username}?size=400`;
     }
     return null;
   }
 
   if (src === "photo" && personal?.photo) {
     const p = personal.photo;
-    return p.startsWith("http") ? p : `/static/${p}`;
+    if (p.startsWith("http")) return p;
+    // Files in frontend/public/ are served from root — works on Netlify + local
+    return `/${p}`;
   }
 
   return null; // "generated" → SVG avatar
