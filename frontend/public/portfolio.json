@@ -14,7 +14,7 @@
     "avatar_style": "neon",
     "photo": "photo.png",
     "resume": {
-      "filename": "resume.pdf",
+      "filename": "resume-ai-ml.pdf",
       "visible": false
     },
     "social": {
@@ -29,103 +29,187 @@
     }
   },
 
-  "summary": "Passionate AI/ML Engineer with a deep focus on building intelligent, scalable systems that bridge the gap between cutting-edge research and real-world impact. Experienced in end-to-end machine learning pipelines — from data ingestion and feature engineering to model deployment and monitoring. I thrive on solving complex problems with data, turning ambiguity into actionable insights and production-grade AI solutions.",
+  "summary": "I'm an AI/ML Engineer with 5+ years of experience building RAG pipelines, multi-agent systems, and ML models that work in production. Currently at Deloitte, I turn complex AI problems into scalable, observable systems. I build fast, ship clean, and care about results.",
+
+  "education": [
+    {
+      "id": 1,
+      "institution": "University of central University",
+      "degree": "Master of Science",
+      "field": "Computer Science",
+      "location": "MO, USA",
+      "start": "Aug 2023",
+      "end": "May 2025",
+      "current": false,
+      "gpa": false,
+      "highlights": [
+        "Specialization in Data Science and AI"
+        
+      ],
+      "courses": ["Deep Learning", "NLP", "Computer Vision", "Reinforcement Learning", "MLOps"]
+    },
+    {
+      "id": 2,
+      "institution": "Jawaharlal Nehru technological University Hyderabad",
+      "degree": "Bachelor of Technology",
+      "field": "Electronics and Communication Engineering",
+      "location": "Hyderabad, India",
+      "start": "",
+      "end": "",
+      "current": false,
+      "gpa": false,
+      "highlights": [
+        "Minor in Mathematics and Statistics",
+        "Technical Lead — AI/ML Student Club"
+      ],
+      "courses": ["Data Structures", "Algorithms", "Linear Algebra", "Probability & Statistics", "Database Systems"]
+    }
+  ],
 
   "experience": [
     {
       "id": 1,
-      "company": "Tech Company Inc.",
-      "role": "Senior ML Engineer",
-      "location": "Remote / San Francisco, CA",
-      "start": "Jan 2023",
+      "company": "Deloitte",
+      "role": "Senior AI / ML Engineer",
+      "location": "Virginia, USA",
+      "start": "Nov 2023",
       "end": "Present",
       "current": true,
       "description": [
-        "Designed and deployed large-scale recommendation systems serving 10M+ users, improving CTR by 23%",
-        "Built LLM-powered internal tooling using LangChain + GPT-4 that reduced analyst research time by 60%",
-        "Architected real-time feature pipelines using Apache Kafka and Spark Streaming processing 500K events/sec",
-        "Led a team of 4 ML engineers to deliver a computer vision defect detection system with 97.3% accuracy"
+           "Built RAG pipelines using LangChain, OpenAI embeddings, and ChromaDB with agentic retrieval routing, improving response accuracy by 28% and cutting manual research time significantly.",
+          "Designed multi-agent workflows using CrewAI and LangGraph for automated document analysis and task routing, reducing analyst effort by 22%.",
+          "Architected agentic microservices with FastMCP and FastAPI for LLM inference and vector search, integrated with LangSmith for full observability and evaluation in production.",
+          "Trained predictive ML models with Scikit-learn and XGBoost for enterprise analytics, improving forecast accuracy by 18% through rigorous cross-validation and hyperparameter tuning.",
+          "Built OCR pipelines using Google Document AI and Tesseract integrated into agentic extraction workflows, cutting manual data entry by 42%.",
+          "Deployed ML and LLM models to GCP using Vertex AI and Cloud Run with Docker and MLflow for tracking and versioning.",
+          "Built model monitoring pipelines tracking prediction drift, latency, and quality metrics, enabling automated retraining and sustained production performance."
+        
       ],
       "tech": ["Python", "PyTorch", "LangChain", "AWS SageMaker", "Spark", "Kafka", "Docker"]
     },
     {
       "id": 2,
-      "company": "Data Analytics Corp",
+      "company": "Broadridge Financial Solutions",
       "role": "Data Scientist",
-      "location": "New York, NY",
-      "start": "Jun 2021",
-      "end": "Dec 2022",
+      "location": "Hyderabad, India",
+      "start": "March 2020",
+      "end": "July 2023",
       "current": false,
       "description": [
-        "Developed predictive churn models using XGBoost/LightGBM achieving 89% precision on $50M ARR portfolio",
-        "Created automated NLP pipeline for sentiment analysis on 2M+ customer reviews using BERT fine-tuning",
-        "Collaborated with product teams to A/B test ML-driven features, resulting in 15% increase in retention",
-        "Built interactive dashboards with Plotly Dash for real-time business KPI monitoring"
-      ],
-      "tech": ["Python", "Scikit-learn", "XGBoost", "BERT", "SQL", "Plotly", "Airflow"]
-    },
-    {
-      "id": 3,
-      "company": "AI Research Lab",
-      "role": "Machine Learning Intern",
-      "location": "Boston, MA",
-      "start": "Jan 2021",
-      "end": "May 2021",
-      "current": false,
-      "description": [
-        "Conducted research on transformer-based time series forecasting, achieving 18% improvement over baselines",
-        "Implemented and benchmarked 5+ graph neural network architectures for molecular property prediction",
-        "Contributed to open-source NLP toolkit with 2K+ GitHub stars"
-      ],
-      "tech": ["Python", "PyTorch", "HuggingFace", "NumPy", "Pandas", "GNN"]
+         "Built a classification model using XGBoost to flag anomalous transactions, improving detection accuracy by 20%.",
+          "Developed a regression model for transaction volume forecasting, improving forecast accuracy by 21% to support capacity planning.",
+          "Built end-to-end ML pipelines with Python, PySpark, and Scikit-learn, improving processing efficiency by 24% across reporting workflows.",
+          "Performed EDA and statistical testing on financial datasets using Python, Pandas, and SQL to surface features that improved model design.",
+          "Validated models using hypothesis testing and significance analysis to meet governance and audit compliance standards."
+        ],
+      "tech": ["Python", "PySpark", "Scikit-learn", "XGBoost", "Pandas", "SQL"]
     }
   ],
 
   "skills": {
     "categories": [
       {
-        "name": "Machine Learning & AI",
+        "name": "Programming & Data",
+        "icon": "code",
+        "color": "cyan",
+        "skills": [
+          "Python", "SQL", "R", "Java", "TypeScript",
+          "PySpark", "Pandas", "NumPy"
+        ]
+      },
+      {
+        "name": "Machine Learning",
         "icon": "brain",
         "color": "green",
         "skills": [
-          "TensorFlow", "PyTorch", "Scikit-learn", "Hugging Face",
-          "LangChain", "LlamaIndex", "XGBoost", "LightGBM",
-          "OpenCV", "YOLO", "Stable Diffusion", "RAG"
+          "Scikit-learn", "XGBoost", "TensorFlow", "PyTorch",
+          "Random Forest", "Gradient Boosting", "Feature Engineering",
+          "Cross-Validation", "Hyperparameter Tuning", "Statistical Analysis"
         ]
       },
       {
-        "name": "Programming Languages",
-        "icon": "code",
-        "color": "cyan",
-        "skills": ["Python", "SQL", "JavaScript", "R", "Bash", "Scala", "Julia"]
+        "name": "Deep Learning & NLP",
+        "icon": "brain",
+        "color": "purple",
+        "skills": [
+          "CNNs", "Transformers", "BERT", "Transfer Learning",
+          "Fine-Tuning", "Text Classification", "Named Entity Recognition",
+          "spaCy", "NLTK"
+        ]
       },
       {
-        "name": "MLOps & Cloud",
+        "name": "Generative AI & LLMs",
+        "icon": "brain",
+        "color": "green",
+        "skills": [
+          "OpenAI GPT-4", "Claude API", "Hugging Face", "Groq",
+          "Prompt Engineering", "Few-Shot Learning", "Fine-Tuning LLMs",
+          "Retrieval-Augmented Generation"
+        ]
+      },
+      {
+        "name": "Agentic AI & Orchestration",
+        "icon": "brain",
+        "color": "cyan",
+        "skills": [
+          "LangChain", "LangGraph", "CrewAI", "LlamaIndex", "FastMCP",
+          "Multi-Agent Systems", "Agentic Retrieval Routing",
+          "Tool Use", "Task Orchestration"
+        ]
+      },
+      {
+        "name": "Vector Databases & Search",
+        "icon": "database",
+        "color": "purple",
+        "skills": [
+          "ChromaDB", "FAISS", "Pinecone", "Semantic Search",
+          "Hybrid Retrieval", "Embeddings", "Metadata Filtering"
+        ]
+      },
+      {
+        "name": "Computer Vision & OCR",
+        "icon": "brain",
+        "color": "green",
+        "skills": [
+          "OpenCV", "YOLO", "Object Detection", "Image Segmentation",
+          "Tesseract", "AWS Textract", "Google Document AI"
+        ]
+      },
+      {
+        "name": "MLOps & Data Engineering",
         "icon": "cloud",
         "color": "purple",
         "skills": [
-          "AWS SageMaker", "Google Vertex AI", "Azure ML",
-          "MLflow", "Weights & Biases", "Docker", "Kubernetes",
-          "Terraform", "GitHub Actions", "FastAPI"
+          "MLflow", "Model Monitoring", "Prediction Drift Detection",
+          "Automated Retraining", "Apache Spark", "Databricks", "dbt",
+          "ETL/ELT Pipelines", "CI/CD"
         ]
       },
       {
-        "name": "Data Engineering",
+        "name": "Evaluation & Observability",
+        "icon": "chart",
+        "color": "cyan",
+        "skills": [
+          "RAGAS", "LangSmith", "Latency Monitoring", "Quality Metrics",
+          "Evaluation Pipelines", "A/B Testing"
+        ]
+      },
+      {
+        "name": "Cloud & Infrastructure",
+        "icon": "cloud",
+        "color": "green",
+        "skills": [
+          "GCP (Vertex AI, Cloud Run)", "AWS (Bedrock, Textract)",
+          "FastAPI", "Docker", "Kubernetes"
+        ]
+      },
+      {
+        "name": "Databases & Visualization",
         "icon": "database",
         "color": "cyan",
         "skills": [
-          "Apache Spark", "Kafka", "Airflow", "dbt",
-          "Pandas", "NumPy", "PostgreSQL", "MongoDB",
-          "Redis", "Snowflake", "BigQuery"
-        ]
-      },
-      {
-        "name": "Data Visualization",
-        "icon": "chart",
-        "color": "green",
-        "skills": [
-          "Matplotlib", "Seaborn", "Plotly", "Tableau",
-          "Power BI", "Grafana", "Streamlit", "Dash"
+          "PostgreSQL", "MySQL", "Tableau", "Power BI",
+          "Git", "Jupyter", "Agile", "JIRA"
         ]
       }
     ]
@@ -134,144 +218,99 @@
   "projects": [
     {
       "id": 1,
-      "title": "LLM-Powered Research Assistant",
-      "description": "An intelligent research assistant built with RAG architecture that synthesizes information from PDFs, web pages, and databases. Features multi-step reasoning, citation tracking, and a conversational interface.",
-      "tech": ["Python", "LangChain", "OpenAI GPT-4", "ChromaDB", "FastAPI", "React"],
-      "github": "https://github.com/yourusername/llm-research-assistant",
-      "demo": "https://demo.example.com",
-      "github_visible": true,
-      "demo_visible": true,
+      "title": "Production-Grade Advanced RAG Tool",
+      "description": "A research-grade RAG system built with four architectural pillars: Pre-Retrieval, Advanced Retrieval, Post-Retrieval, and Self-RAG generation. Evaluated using a Tesla Owner's Manual corpus with RAGAS metrics tracked end-to-end in LangSmith. Implements HyDE, hybrid retrieval, parent-child chunking, cross-encoder reranking, and page indexing.",
+      "tech": ["LangChain", "ChromaDB", "Groq (llama-3.3-70b)", "HuggingFace Embeddings", "RAGAS", "LangSmith", "Streamlit"],
+      "github": null,
+      "demo": null,
+      "github_visible": false,
+      "demo_visible": false,
       "featured": true,
       "category": "NLP / LLM"
     },
     {
       "id": 2,
-      "title": "Real-Time Fraud Detection System",
-      "description": "End-to-end ML pipeline for detecting fraudulent transactions in real-time. Uses ensemble models with online learning, processing 10K+ transactions/second with sub-50ms latency.",
-      "tech": ["Python", "XGBoost", "Kafka", "Redis", "Docker", "AWS Lambda"],
-      "github": "https://github.com/yourusername/fraud-detection",
+      "title": "HRMS MCP Server",
+      "description": "A production-ready MCP server for HR Management built with FastMCP and Groq API. Exposes HR workflows as callable tools including employee management, leave tracking, and organizational data queries. Leveraged Claude Code and prompt engineering during development to design tool schemas and system architecture. Designed to plug directly into any MCP-compatible host, making HR operations accessible to LLM-powered agents without custom API integrations.",
+      "tech": ["FastMCP", "Groq API", "Python", "Claude Code", "Prompt Engineering"],
+      "github": null,
       "demo": null,
-      "github_visible": true,
+      "github_visible": false,
       "demo_visible": false,
       "featured": true,
-      "category": "MLOps"
+      "category": "Agentic AI / MCP"
     },
     {
       "id": 3,
-      "title": "Computer Vision Defect Inspector",
-      "description": "Industrial quality control system using custom YOLO-based model to detect manufacturing defects on production lines. Achieved 97.3% accuracy with real-time video processing.",
-      "tech": ["Python", "PyTorch", "YOLO", "OpenCV", "FastAPI", "ONNX"],
-      "github": "https://github.com/yourusername/defect-inspector",
-      "demo": "https://demo.example.com/defect",
-      "github_visible": true,
-      "demo_visible": true,
+      "title": "MCP Host Chat Interface",
+      "description": "A fully custom MCP host chat interface built from scratch using Node.js and the Groq API. Leveraged Claude Code for accelerated development, applied system design principles to architect the host layer, and used prompt engineering to control tool discovery, execution flow, and conversation behavior. Built as an independent alternative to Claude Desktop and Codex, giving full control over the MCP host layer with multi-turn conversation state managed entirely within a standalone interface.",
+      "tech": ["Node.js", "Groq API", "MCP Protocol", "Claude Code", "Prompt Engineering"],
+      "github": null,
+      "demo": null,
+      "github_visible": false,
+      "demo_visible": false,
       "featured": true,
-      "category": "Computer Vision"
+      "category": "Agentic AI / MCP"
     },
     {
       "id": 4,
-      "title": "Multimodal Sentiment Analyzer",
-      "description": "Analyzes sentiment from text, audio, and facial expressions simultaneously using a fusion transformer architecture. Deployed as a REST API handling 1M+ requests/day.",
-      "tech": ["Python", "HuggingFace", "librosa", "PyTorch", "FastAPI", "Kubernetes"],
-      "github": "https://github.com/yourusername/multimodal-sentiment",
+      "title": "Portfolio Builder",
+      "description": "An open source portfolio website builder deployed on Vercel, built to help friends create and manage their own portfolio sites without writing code. Entirely designed and developed using prompt engineering, system design, and Claude Code — from architecting the Supabase schema and auth flows to building the admin and user dashboards, approval flows, and multi-theme system. Resend handles transactional emails throughout the platform. Made fully open source so anyone can self-host, contribute, or build on top of it.",
+      "tech": ["Next.js 14", "Supabase", "Resend", "Vercel", "Claude Code", "Prompt Engineering"],
+      "github": null,
       "demo": null,
-      "github_visible": true,
+      "github_visible": false,
+      "demo_visible": false,
+      "featured": true,
+      "category": "Full Stack / Web"
+    },
+    {
+      "id": 5,
+      "title": "Credit Risk Prediction Model",
+      "description": "A machine learning classification model that predicts credit default risk based on borrower financial profiles. Applied feature engineering, class imbalance handling, and cross-validation to optimize precision and recall. Evaluated across multiple algorithms with XGBoost delivering the strongest performance on holdout data.",
+      "tech": ["Python", "Scikit-learn", "XGBoost", "Pandas", "NumPy"],
+      "github": null,
+      "demo": null,
+      "github_visible": false,
+      "demo_visible": false,
+      "featured": false,
+      "category": "Machine Learning"
+    },
+    {
+      "id": 6,
+      "title": "Healthcare Premium Prediction",
+      "description": "A regression model that predicts individual health insurance premiums based on demographic and health features. Performed EDA to identify key premium drivers, applied feature transformations, and benchmarked multiple regression algorithms. Designed to support pricing and risk assessment workflows in healthcare.",
+      "tech": ["Python", "Scikit-learn", "XGBoost", "Regression Modeling", "Pandas"],
+      "github": null,
+      "demo": null,
+      "github_visible": false,
+      "demo_visible": false,
+      "featured": false,
+      "category": "Machine Learning"
+    },
+    {
+      "id": 7,
+      "title": "A/B Testing for Credit Card Launch",
+      "description": "A full A/B testing analysis for a new credit card product launch. Designed the experiment structure, defined control and treatment groups, and ran hypothesis tests to determine statistical significance of conversion and engagement metrics. Delivered data-driven recommendations on whether to proceed with the full rollout.",
+      "tech": ["Python", "Statistical Hypothesis Testing", "Pandas", "SciPy"],
+      "github": null,
+      "demo": null,
+      "github_visible": false,
+      "demo_visible": false,
+      "featured": false,
+      "category": "Data Analysis / Statistics"
+    },
+    {
+      "id": 8,
+      "title": "E-Commerce Chatbot",
+      "description": "A semantic routing-based chatbot for e-commerce that classifies and routes customer queries intelligently. Uses embedding-based routing to handle product, order, and support intents without brittle rule logic.",
+      "tech": ["Python", "SemanticRouter", "Groq API", "LangChain"],
+      "github": null,
+      "demo": null,
+      "github_visible": false,
       "demo_visible": false,
       "featured": false,
       "category": "NLP / LLM"
-    },
-    {
-      "id": 5,
-      "title": "Neural Time Series Forecaster",
-      "description": "Transformer-based forecasting model for financial time series that outperforms traditional ARIMA/LSTM baselines by 18%. Includes uncertainty quantification and anomaly detection.",
-      "tech": ["Python", "PyTorch", "Pandas", "Plotly", "Streamlit", "MLflow"],
-      "github": "https://github.com/yourusername/neural-forecaster",
-      "demo": "https://forecaster-demo.streamlit.app",
-      "github_visible": true,
-      "demo_visible": true,
-      "featured": false,
-      "category": "Time Series"
-    },
-    {
-      "id": 6,
-      "title": "AutoML Platform",
-      "description": "An internal AutoML tool that automates feature engineering, model selection, and hyperparameter tuning. Reduced model development time from weeks to hours for non-ML teams.",
-      "tech": ["Python", "Optuna", "Scikit-learn", "FastAPI", "React", "PostgreSQL"],
-      "github": "https://github.com/yourusername/automl-platform",
-      "demo": null,
-      "github_visible": true,
-      "demo_visible": false,
-      "featured": false,
-      "category": "MLOps"
-    }
-  ],
-
-  "certifications": [
-    {
-      "id": 1,
-      "name": "Google Cloud Professional Machine Learning Engineer",
-      "issuer": "Google Cloud",
-      "issuer_short": "Google",
-      "date": "Oct 2023",
-      "expiry": "Oct 2026",
-      "credential_id": "AWS-MLS-XXXXXX",
-      "verify_url": "https://aws.amazon.com/certification/",
-      "color": "orange"
-    },
-    {
-      "id": 2,
-      "name": "TensorFlow Developer Certificate",
-      "issuer": "Google",
-      "issuer_short": "Google",
-      "date": "Mar 2023",
-      "expiry": "Mar 2026",
-      "credential_id": "TF-XXXXXX",
-      "verify_url": "https://www.tensorflow.org/certificate",
-      "color": "orange"
-    },
-    {
-      "id": 3,
-      "name": "Professional Data Engineer",
-      "issuer": "Google Cloud",
-      "issuer_short": "GCP",
-      "date": "Jun 2023",
-      "expiry": "Jun 2025",
-      "credential_id": "GCP-PDE-XXXXXX",
-      "verify_url": "https://cloud.google.com/certification/",
-      "color": "blue"
-    },
-    {
-      "id": 4,
-      "name": "Deep Learning Specialization",
-      "issuer": "Coursera / DeepLearning.AI",
-      "issuer_short": "DeepLearning.AI",
-      "date": "Jan 2022",
-      "expiry": null,
-      "credential_id": "COURSERA-XXXXXX",
-      "verify_url": "https://coursera.org/verify/XXXXXX",
-      "color": "green"
-    },
-    {
-      "id": 5,
-      "name": "MLOps Specialization",
-      "issuer": "Coursera / DeepLearning.AI",
-      "issuer_short": "DeepLearning.AI",
-      "date": "Aug 2022",
-      "expiry": null,
-      "credential_id": "COURSERA-MLOPS-XXXXXX",
-      "verify_url": "https://coursera.org/verify/XXXXXX",
-      "color": "purple"
-    },
-    {
-      "id": 6,
-      "name": "Azure AI Engineer Associate",
-      "issuer": "Microsoft",
-      "issuer_short": "Microsoft",
-      "date": "Feb 2024",
-      "expiry": "Feb 2026",
-      "credential_id": "MS-AI102-XXXXXX",
-      "verify_url": "https://learn.microsoft.com/certifications/",
-      "color": "blue"
     }
   ]
 }

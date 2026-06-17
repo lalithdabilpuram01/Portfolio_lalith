@@ -27,7 +27,7 @@ export default function Projects({ projects }) {
 
       <div className="max-w-6xl mx-auto">
         <SectionTitle
-          label="04. Portfolio"
+          label="06. Portfolio"
           title="Projects"
           subtitle="A selection of ML, AI, and data engineering projects I've built"
         />

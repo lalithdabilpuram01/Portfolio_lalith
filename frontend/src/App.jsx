@@ -3,10 +3,10 @@ import { fetchPortfolio } from "./api/portfolio";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Summary from "./components/Summary";
+import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import Certifications from "./components/Certifications";
 import Footer from "./components/Footer";
 
 export default function App() {
@@ -49,10 +49,10 @@ export default function App() {
       <Navbar name={data.personal.name} />
       <Hero data={data} />
       <Summary summary={data.summary} personal={data.personal} />
+      <Education education={data.education || []} />
       <Experience experience={data.experience} />
       <Skills skills={data.skills} />
       <Projects projects={data.projects} />
-      <Certifications certifications={data.certifications} />
       <Footer personal={data.personal} />
     </div>
   );

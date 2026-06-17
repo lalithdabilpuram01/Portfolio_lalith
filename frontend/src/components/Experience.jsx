@@ -10,7 +10,7 @@ export default function Experience({ experience }) {
       <div className="absolute top-0 right-0 w-80 h-80 rounded-full bg-neon-purple/3 blur-3xl pointer-events-none" />
 
       <div className="max-w-4xl mx-auto">
-        <SectionTitle label="02. Career" title="Experience" />
+        <SectionTitle label="04. Career" title="Experience" />
 
         <div className="relative">
           {/* Vertical timeline line */}

@@ -9,7 +9,7 @@
       "LLM Applications Builder"
     ],
     "email": "lalith.dabilpuram01@gmail.com",
-    "location": "Your City, Country",
+    "location": "Virginia, USA",
     "avatar_source": "photo",
     "avatar_style": "neon",
     "photo": "photo.png",
@@ -30,6 +30,43 @@
   },
 
   "summary": "Passionate AI/ML Engineer with a deep focus on building intelligent, scalable systems that bridge the gap between cutting-edge research and real-world impact. Experienced in end-to-end machine learning pipelines — from data ingestion and feature engineering to model deployment and monitoring. I thrive on solving complex problems with data, turning ambiguity into actionable insights and production-grade AI solutions.",
+
+  "education": [
+    {
+      "id": 1,
+      "institution": "Your University Name",
+      "degree": "Master of Science",
+      "field": "Computer Science / Artificial Intelligence",
+      "location": "City, State",
+      "start": "Aug 2022",
+      "end": "May 2024",
+      "current": false,
+      "gpa": "3.9 / 4.0",
+      "highlights": [
+        "Specialization in Machine Learning and Deep Learning",
+        "Thesis: Transformer-based models for multimodal sentiment analysis",
+        "Graduate Research Assistant — NLP & Computer Vision Lab"
+      ],
+      "courses": ["Deep Learning", "NLP", "Computer Vision", "Reinforcement Learning", "MLOps"]
+    },
+    {
+      "id": 2,
+      "institution": "Your Undergraduate University",
+      "degree": "Bachelor of Technology",
+      "field": "Computer Science & Engineering",
+      "location": "City, State",
+      "start": "Aug 2017",
+      "end": "May 2021",
+      "current": false,
+      "gpa": "3.7 / 4.0",
+      "highlights": [
+        "Minor in Mathematics and Statistics",
+        "Final year project on real-time object detection using YOLO",
+        "Technical Lead — AI/ML Student Club"
+      ],
+      "courses": ["Data Structures", "Algorithms", "Linear Algebra", "Probability & Statistics", "Database Systems"]
+    }
+  ],
 
   "experience": [
     {

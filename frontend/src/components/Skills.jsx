@@ -45,7 +45,7 @@ export default function Skills({ skills }) {
 
       <div className="max-w-6xl mx-auto">
         <SectionTitle
-          label="03. Technical Stack"
+          label="05. Technical Stack"
           title="Skills"
           subtitle="Technologies and tools I use to build intelligent systems"
         />

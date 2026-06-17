@@ -16,7 +16,7 @@ export default function Certifications({ certifications }) {
 
       <div className="max-w-6xl mx-auto">
         <SectionTitle
-          label="05. Credentials"
+          label="07. Credentials"
           title="Certifications"
           subtitle="Professional certifications validating my expertise"
         />
