@@ -29,7 +29,9 @@
     }
   },
 
-  "summary": "I'm an AI/ML Engineer who loves building things that actually work. From RAG pipelines to multi-agent systems, I spend most of my time turning complex AI problems into clean, production-ready solutions. Currently at Deloitte, and always working on something on the side.",
+  "hero_intro": "I build AI systems that make it to production — RAG pipelines, multi-agent workflows, and ML models that hold up well outside the notebook.",
+
+  "summary": "I'm a Senior AI/ML Engineer at Deloitte, where I design RAG pipelines, agentic microservices, and LLM inference systems used by enterprise clients. Before that, I spent three years as a Data Scientist at Broadridge building fraud-detection and forecasting models for financial workflows. I hold an M.S. in Computer Science from the University of Central Missouri. I care about systems that are observable, reproducible, and reliable at scale — not just accurate once in a notebook. Outside of work, I'm usually shipping side projects, reading AI research, or exploring Indian philosophy.",
 
   "education": [
     {

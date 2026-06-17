@@ -6,6 +6,7 @@ import AvatarDisplay from "./AvatarDisplay";
 
 export default function Hero({ data }) {
   const { personal, summary } = data;
+  const heroIntro = data.hero_intro || summary;
   const { github, linkedin } = personal.social;
   const resume = personal.resume;
 
@@ -87,7 +88,7 @@ export default function Hero({ data }) {
           transition={{ delay: 0.65 }}
           className="text-slate-400 text-base md:text-lg max-w-2xl mx-auto leading-relaxed mb-10"
         >
-          {summary}
+          {heroIntro}
         </motion.p>
 
         {/* CTA buttons */}
