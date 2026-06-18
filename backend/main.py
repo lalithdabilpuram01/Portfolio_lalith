@@ -29,7 +29,7 @@ async def get_portfolio():
         with open(DATA_FILE, "r") as f:
             return json.load(f)
     except FileNotFoundError:
-        raise HTTPException(status_code=404, detail="portfolio.json not found in backend/data/")
+        raise HTTPException(status_code=404, detail="portfolio.json not found in frontend/public/")
     except json.JSONDecodeError as e:
         raise HTTPException(status_code=500, detail=f"Invalid JSON: {e}")
 

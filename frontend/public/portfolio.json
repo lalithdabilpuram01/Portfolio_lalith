@@ -31,15 +31,15 @@
 
   "hero_intro": "I build AI systems that make it to production — RAG pipelines, multi-agent workflows, and ML models that hold up well outside the notebook.",
 
-  "summary": "I'm a Senior AI/ML Engineer at Deloitte, where I design RAG pipelines, agentic microservices, and LLM inference systems used by enterprise clients. Before that, I spent three years as a Data Scientist at Broadridge building fraud-detection and forecasting models for financial workflows. I hold an M.S. in Computer Science from the University of Central Missouri. I care about systems that are observable, reproducible, and reliable at scale — not just accurate once in a notebook. Outside of work, I'm usually shipping side projects, reading AI research, or exploring Indian philosophy.",
+  "summary": "I'm a Machine Learning Engineer with 5+ years of experience designing, deploying, and maintaining production-grade ML systems, NLP pipelines, and cloud-native AI solutions. I currently build ML model services and REST APIs with PyTorch, Scikit-learn, and FastAPI at Apollo Global Management, after several years as a Data Scientist at Elevance Health building clinical risk and fraud-detection models. I hold an M.S. in Computer Science from the University of Central Missouri. I care about reliability, MLOps, and translating complex business problems into ML/AI solutions that hold up in production across AWS and Azure — not just in a notebook.",
 
   "education": [
     {
       "id": 1,
-      "institution": "University of central University",
+      "institution": "University of Central Missouri",
       "degree": "Master of Science",
       "field": "Computer Science",
-      "location": "MO, USA",
+      "location": "Warrensburg, MO",
       "start": "Aug 2023",
       "end": "May 2025",
       "current": false,
@@ -71,147 +71,136 @@
   "experience": [
     {
       "id": 1,
-      "company": "Deloitte",
-      "role": "Senior AI / ML Engineer",
-      "location": "Virginia, USA",
+      "company": "Apollo Global Management",
+      "role": "AI / ML Engineer",
+      "location": "New York, USA",
       "start": "Nov 2023",
       "end": "Present",
       "current": true,
       "description": [
-           "Built RAG pipelines using LangChain, OpenAI embeddings, and ChromaDB with agentic retrieval routing, improving response accuracy by 28% and cutting manual research time significantly.",
-          "Designed multi-agent workflows using CrewAI and LangGraph for automated document analysis and task routing, reducing analyst effort by 22%.",
-          "Architected agentic microservices with FastMCP and FastAPI for LLM inference and vector search, integrated with LangSmith for full observability and evaluation in production.",
-          "Trained predictive ML models with Scikit-learn and XGBoost for enterprise analytics, improving forecast accuracy by 18% through rigorous cross-validation and hyperparameter tuning.",
-          "Built OCR pipelines using Google Document AI and Tesseract integrated into agentic extraction workflows, cutting manual data entry by 42%.",
-          "Deployed ML and LLM models to GCP using Vertex AI and Cloud Run with Docker and MLflow for tracking and versioning.",
-          "Built model monitoring pipelines tracking prediction drift, latency, and quality metrics, enabling automated retraining and sustained production performance."
-        
+          "Designed and deployed end-to-end ML models for portfolio risk scoring and document intelligence, translating business requirements into production-ready solutions that improved analyst efficiency by 25%.",
+          "Developed ML model services and REST APIs using PyTorch, Scikit-learn, and FastAPI, packaged as containerized microservices on Amazon EKS, with experiments and artifacts tracked in MLflow and DVC across 10+ model iterations.",
+          "Built data pipelines with Apache Spark, PySpark, and SQL on AWS Glue and Step Functions to ingest and transform investment data into S3 data lakes, supporting batch training and inference for 3 production models.",
+          "Collaborated with data engineering and software teams to integrate ML models into 2 production systems, defining data contracts, API schemas, and deployment runbooks that cut integration turnaround by 20%.",
+          "Monitored model performance with Prometheus, Grafana, and Evidently, resolving accuracy degradation through drift detection and retraining to reduce model downtime incidents by 30%.",
+          "Built a generative AI portfolio assistant using RAG, LangChain, and GPT-4 with Pinecone vector stores, automating summarization of investment memos and reducing manual document review time by 40%.",
+          "Deployed containerized ML services on Amazon EKS with Docker and Kubernetes, enforcing IAM least-privilege policies, securing APIs via API Gateway, and automating CI/CD with GitHub Actions and Terraform to cut manual release effort by 25%."
       ],
-      "tech": ["Python", "PyTorch", "LangChain", "AWS SageMaker", "Spark", "Kafka", "Docker"]
+      "tech": ["Python", "PyTorch", "Scikit-learn", "FastAPI", "Amazon EKS", "MLflow", "Apache Spark", "LangChain", "Docker", "Kubernetes"]
     },
     {
       "id": 2,
-      "company": "Broadridge Financial Solutions",
+      "company": "Elevance Health",
       "role": "Data Scientist",
-      "location": "Hyderabad, India",
+      "location": "New York, USA",
       "start": "March 2020",
-      "end": "July 2023",
+      "end": "Aug 2023",
       "current": false,
       "description": [
-         "Built a classification model using XGBoost to flag anomalous transactions, improving detection accuracy by 20%.",
-          "Developed a regression model for transaction volume forecasting, improving forecast accuracy by 21% to support capacity planning.",
-          "Built end-to-end ML pipelines with Python, PySpark, and Scikit-learn, improving processing efficiency by 24% across reporting workflows.",
-          "Performed EDA and statistical testing on financial datasets using Python, Pandas, and SQL to surface features that improved model design.",
-          "Validated models using hypothesis testing and significance analysis to meet governance and audit compliance standards."
+          "Built a Clinical Risk Stratification Platform with XGBoost and Scikit-learn on claims and EHR data, automating patient risk scoring and chronic disease prediction to improve risk segmentation accuracy by 18% and reduce manual triage effort by 25%.",
+          "Designed and maintained ETL pipelines on Azure Data Factory using Python, PySpark, and SQL to process claims data, ICD-10/CPT codes, and physician notes, reducing preprocessing time by 30% and producing clean datasets for 4 ML models.",
+          "Developed supervised classification and anomaly detection models to categorize claim types and flag fraudulent submissions, achieving an 84% F1-score in classification and 88% recall in fraud detection across 2 production deployments.",
+          "Tracked model performance on Azure ML and improved accuracy through Grid Search and Bayesian optimization, applying SHAP to explain model outputs to non-technical stakeholders and increase confidence in model decisions.",
+          "Collaborated with clinical, product, and actuarial teams across Agile sprints, building Streamlit and Tableau dashboards to visualize population health KPIs and reduce reporting turnaround time by 20%."
         ],
-      "tech": ["Python", "PySpark", "Scikit-learn", "XGBoost", "Pandas", "SQL"]
+      "tech": ["Python", "XGBoost", "Scikit-learn", "PySpark", "Azure ML", "SHAP", "Tableau", "SQL"]
     }
   ],
 
   "skills": {
     "categories": [
       {
-        "name": "Programming & Data",
+        "name": "Programming Languages",
         "icon": "code",
         "color": "cyan",
         "skills": [
-          "Python", "SQL", "R", "Java", "TypeScript",
-          "PySpark", "Pandas", "NumPy"
+          "Python", "SQL", "PySpark", "R", "Bash", "Java", "Shell Scripting"
         ]
       },
       {
-        "name": "Machine Learning",
+        "name": "Machine Learning & Deep Learning",
         "icon": "brain",
         "color": "green",
         "skills": [
-          "Scikit-learn", "XGBoost", "TensorFlow", "PyTorch",
-          "Random Forest", "Gradient Boosting", "Feature Engineering",
-          "Cross-Validation", "Hyperparameter Tuning", "Statistical Analysis"
+          "TensorFlow", "PyTorch", "Scikit-learn", "Keras", "XGBoost",
+          "LightGBM", "CatBoost", "Hugging Face Transformers", "PEFT",
+          "DeepSpeed", "Transfer Learning"
         ]
       },
       {
-        "name": "Deep Learning & NLP",
+        "name": "Generative AI & NLP",
         "icon": "brain",
         "color": "purple",
         "skills": [
-          "CNNs", "Transformers", "BERT", "Transfer Learning",
-          "Fine-Tuning", "Text Classification", "Named Entity Recognition",
-          "spaCy", "NLTK"
+          "LangChain", "LangGraph", "OpenAI GPT", "RAG Pipelines", "FAISS",
+          "Pinecone", "BERT / RoBERTa / DeBERTa", "spaCy", "NLTK", "NER",
+          "Sentiment Analysis", "Text Classification"
         ]
       },
       {
-        "name": "Generative AI & LLMs",
-        "icon": "brain",
-        "color": "green",
-        "skills": [
-          "OpenAI GPT-4", "Claude API", "Hugging Face", "Groq",
-          "Prompt Engineering", "Few-Shot Learning", "Fine-Tuning LLMs",
-          "Retrieval-Augmented Generation"
-        ]
-      },
-      {
-        "name": "Agentic AI & Orchestration",
-        "icon": "brain",
+        "name": "Data Engineering & Pipelines",
+        "icon": "database",
         "color": "cyan",
         "skills": [
-          "LangChain", "LangGraph", "CrewAI", "LlamaIndex", "FastMCP",
-          "Multi-Agent Systems", "Agentic Retrieval Routing",
-          "Tool Use", "Task Orchestration"
+          "Apache Spark", "Hadoop", "Dask", "PySpark", "Apache Airflow",
+          "AWS Glue", "Azure Data Factory", "Databricks", "Step Functions",
+          "Kafka", "Redis", "ETL Pipeline Design"
         ]
       },
       {
-        "name": "Vector Databases & Search",
-        "icon": "database",
-        "color": "purple",
-        "skills": [
-          "ChromaDB", "FAISS", "Pinecone", "Semantic Search",
-          "Hybrid Retrieval", "Embeddings", "Metadata Filtering"
-        ]
-      },
-      {
-        "name": "Computer Vision & OCR",
-        "icon": "brain",
+        "name": "Cloud Platforms & Infrastructure",
+        "icon": "cloud",
         "color": "green",
         "skills": [
-          "OpenCV", "YOLO", "Object Detection", "Image Segmentation",
-          "Tesseract", "AWS Textract", "Google Document AI"
+          "AWS (SageMaker, Lambda, EC2, EKS, API Gateway, Kinesis)",
+          "Azure (Azure ML, Blob Storage)", "Docker", "Kubernetes",
+          "Terraform", "Ray Train", "gRPC"
         ]
       },
       {
-        "name": "MLOps & Data Engineering",
+        "name": "MLOps & Model Monitoring",
         "icon": "cloud",
         "color": "purple",
         "skills": [
-          "MLflow", "Model Monitoring", "Prediction Drift Detection",
-          "Automated Retraining", "Apache Spark", "Databricks", "dbt",
-          "ETL/ELT Pipelines", "CI/CD"
+          "MLflow", "GitHub Actions", "GitLab CI/CD", "Jenkins", "DVC",
+          "Evidently", "Prometheus", "Grafana", "Drift Detection",
+          "Model Registry", "Experiment Tracking"
         ]
       },
       {
-        "name": "Evaluation & Observability",
+        "name": "Model Optimization & Explainability",
         "icon": "chart",
         "color": "cyan",
         "skills": [
-          "RAGAS", "LangSmith", "Latency Monitoring", "Quality Metrics",
-          "Evaluation Pipelines", "A/B Testing"
+          "SHAP", "LIME", "Optuna", "Bayesian Optimization", "Grid Search",
+          "Hyperopt", "k-Fold Cross-Validation"
         ]
       },
       {
-        "name": "Cloud & Infrastructure",
-        "icon": "cloud",
+        "name": "Databases & APIs",
+        "icon": "database",
         "color": "green",
         "skills": [
-          "GCP (Vertex AI, Cloud Run)", "AWS (Bedrock, Textract)",
-          "FastAPI", "Docker", "Kubernetes"
+          "PostgreSQL", "MongoDB", "REST APIs", "Microservices Architecture",
+          "gRPC", "SQLAlchemy"
         ]
       },
       {
-        "name": "Databases & Visualization",
-        "icon": "database",
-        "color": "cyan",
+        "name": "Security & Compliance",
+        "icon": "code",
+        "color": "purple",
         "skills": [
-          "PostgreSQL", "MySQL", "Tableau", "Power BI",
-          "Git", "Jupyter", "Agile", "JIRA"
+          "IAM Least-Privilege", "Data Privacy", "SOC 2", "PCI DSS",
+          "HIPAA-aware Data Handling"
+        ]
+      },
+      {
+        "name": "Methods & Collaboration",
+        "icon": "chart",
+        "color": "green",
+        "skills": [
+          "Agile & Scrum", "Analytical Thinking", "Cross-functional Collaboration",
+          "Technical Documentation", "Ethical AI Practices"
         ]
       }
     ]
