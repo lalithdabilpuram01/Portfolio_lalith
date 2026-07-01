@@ -78,15 +78,17 @@
       "end": "Present",
       "current": true,
       "description": [
-          "Designed and deployed end-to-end ML models for portfolio risk scoring and document intelligence, translating business requirements into production-ready solutions that improved analyst efficiency by 25%.",
-          "Developed ML model services and REST APIs using PyTorch, Scikit-learn, and FastAPI, packaged as containerized microservices on Amazon EKS, with experiments and artifacts tracked in MLflow and DVC across 10+ model iterations.",
-          "Built data pipelines with Apache Spark, PySpark, and SQL on AWS Glue and Step Functions to ingest and transform investment data into S3 data lakes, supporting batch training and inference for 3 production models.",
-          "Collaborated with data engineering and software teams to integrate ML models into 2 production systems, defining data contracts, API schemas, and deployment runbooks that cut integration turnaround by 20%.",
-          "Monitored model performance with Prometheus, Grafana, and Evidently, resolving accuracy degradation through drift detection and retraining to reduce model downtime incidents by 30%.",
-          "Built a generative AI portfolio assistant using RAG, LangChain, and GPT-4 with Pinecone vector stores, automating summarization of investment memos and reducing manual document review time by 40%.",
-          "Deployed containerized ML services on Amazon EKS with Docker and Kubernetes, enforcing IAM least-privilege policies, securing APIs via API Gateway, and automating CI/CD with GitHub Actions and Terraform to cut manual release effort by 25%."
+          "Led design and delivery of AI/ML solutions across the full lifecycle, from statistical modeling and feature engineering to productionizing LLM-based agentic systems, partnering with investment teams and platform engineering to move solutions from prototype to production.",
+          "Built and deployed an ensemble forecasting model (XGBoost, Scikit-learn) on Azure Machine Learning, reducing forecast error (MAPE) by 11% and enabling more reliable data-driven portfolio planning across investment operations.",
+          "Designed and productionized RAG-based knowledge retrieval solutions using LangChain, OpenAI GPT, FAISS, Pinecone, and hybrid search architectures, reducing analyst research time from 15 minutes to under 6 minutes per request.",
+          "Architected multi-agent workflows using LangGraph and CrewAI with supervisor-based task routing and tool orchestration, automating multi-step research and reporting tasks and reducing manual coordination time by approximately 30%.",
+          "Implemented end-to-end MLOps workflows using Docker, Kubernetes, GitHub Actions and MLflow, automating model deployment, monitoring, and rollback processes across multiple production environments.",
+          "Built scalable ETL, feature engineering, and data validation pipelines using Apache Spark, Azure Data Factory, Airflow, and Azure Synapse Analytics, processing over 800GB of structured and unstructured data monthly while reducing manual preparation effort by 20%.",
+          "Built anomaly detection and risk-scoring models using ensemble learning algorithms, improving alert precision by 13% while maintaining regulatory compliance and governance requirements.",
+          "Applied SHAP, LIME, and explainable AI techniques to improve model transparency, support governance reviews, and accelerate validation cycles for business stakeholders.",
+          "Built monitoring dashboards using Tableau, Grafana, and Prometheus to track model performance, drift, infrastructure health, and operational KPIs, enabling proactive issue detection."
       ],
-      "tech": ["Python", "PyTorch", "Scikit-learn", "FastAPI", "Amazon EKS", "MLflow", "Apache Spark", "LangChain", "Docker", "Kubernetes"]
+      "tech": ["Python", "XGBoost", "Scikit-learn", "Azure ML", "LangChain", "LangGraph", "CrewAI", "OpenAI GPT", "FAISS", "Pinecone", "Docker", "Kubernetes", "MLflow", "Apache Spark", "SHAP"]
     },
     {
       "id": 2,
@@ -97,13 +99,16 @@
       "end": "Aug 2023",
       "current": false,
       "description": [
-          "Built a Clinical Risk Stratification Platform with XGBoost and Scikit-learn on claims and EHR data, automating patient risk scoring and chronic disease prediction to improve risk segmentation accuracy by 18% and reduce manual triage effort by 25%.",
-          "Designed and maintained ETL pipelines on Azure Data Factory using Python, PySpark, and SQL to process claims data, ICD-10/CPT codes, and physician notes, reducing preprocessing time by 30% and producing clean datasets for 4 ML models.",
-          "Developed supervised classification and anomaly detection models to categorize claim types and flag fraudulent submissions, achieving an 84% F1-score in classification and 88% recall in fraud detection across 2 production deployments.",
-          "Tracked model performance on Azure ML and improved accuracy through Grid Search and Bayesian optimization, applying SHAP to explain model outputs to non-technical stakeholders and increase confidence in model decisions.",
-          "Collaborated with clinical, product, and actuarial teams across Agile sprints, building Streamlit and Tableau dashboards to visualize population health KPIs and reduce reporting turnaround time by 20%."
+          "Developed healthcare utilization, claims forecasting, and predictive risk models using Python, SQL, Scikit-learn, XGBoost, and statsmodels, improving predictive performance (AUC) by 14% over legacy rule-based approaches and supporting earlier intervention decisions.",
+          "Built risk stratification and member propensity models using demographic, claims, and behavioral features, improving identification of high-risk populations by 16% and enabling more targeted care management interventions.",
+          "Developed NLP pipelines using BERT, spaCy, TF-IDF, and transformer-based architectures to extract insights from customer feedback and clinical narratives, reducing manual review effort by approximately 25%.",
+          "Automated model retraining, validation, and deployment workflows using Airflow, MLflow, and GitLab CI/CD, reducing model refresh cycles from five days to three days while improving reproducibility and reliability.",
+          "Processed and analyzed millions of healthcare claims, eligibility, provider, and member records using SQL, PySpark, and Hadoop to support enterprise analytics initiatives across business units.",
+          "Designed and analyzed A/B tests and hypothesis-testing frameworks to evaluate member outreach campaigns, improving engagement rates by 9% and informing rollout decisions for operational process changes.",
+          "Built Tableau and Power BI dashboards consumed by operational, clinical, and executive teams, enabling real-time visibility into program performance, model outcomes, and healthcare utilization trends.",
+          "Partnered with data engineers, care management teams, and healthcare stakeholders to operationalize machine learning solutions across clinical, operational, and financial analytics initiatives."
         ],
-      "tech": ["Python", "XGBoost", "Scikit-learn", "PySpark", "Azure ML", "SHAP", "Tableau", "SQL"]
+      "tech": ["Python", "SQL", "Scikit-learn", "XGBoost", "statsmodels", "BERT", "spaCy", "TF-IDF", "Airflow", "MLflow", "GitLab CI/CD", "PySpark", "Hadoop", "Tableau", "Power BI"]
     }
   ],
 
@@ -114,93 +119,101 @@
         "icon": "code",
         "color": "cyan",
         "skills": [
-          "Python", "SQL", "PySpark", "R", "Bash", "Java", "Shell Scripting"
+          "Python", "SQL", "PySpark", "R", "Scala", "Bash", "Shell Scripting"
         ]
       },
       {
-        "name": "Machine Learning & Deep Learning",
-        "icon": "brain",
+        "name": "Machine Learning & Statistics",
+        "icon": "chart",
         "color": "green",
         "skills": [
-          "TensorFlow", "PyTorch", "Scikit-learn", "Keras", "XGBoost",
-          "LightGBM", "CatBoost", "Hugging Face Transformers", "PEFT",
-          "DeepSpeed", "Transfer Learning"
+          "Regression", "Classification", "Clustering", "Time-Series Forecasting",
+          "Anomaly Detection", "Ensemble Methods", "Hypothesis Testing",
+          "A/B Testing", "Model Validation", "Backtesting"
+        ]
+      },
+      {
+        "name": "ML & Deep Learning Frameworks",
+        "icon": "brain",
+        "color": "purple",
+        "skills": [
+          "Scikit-learn", "XGBoost", "LightGBM", "CatBoost", "TensorFlow",
+          "PyTorch", "Keras", "statsmodels", "pandas", "NumPy", "SciPy"
         ]
       },
       {
         "name": "Generative AI & NLP",
         "icon": "brain",
-        "color": "purple",
-        "skills": [
-          "LangChain", "LangGraph", "OpenAI GPT", "RAG Pipelines", "FAISS",
-          "Pinecone", "BERT / RoBERTa / DeBERTa", "spaCy", "NLTK", "NER",
-          "Sentiment Analysis", "Text Classification"
-        ]
-      },
-      {
-        "name": "Data Engineering & Pipelines",
-        "icon": "database",
         "color": "cyan",
         "skills": [
-          "Apache Spark", "Hadoop", "Dask", "PySpark", "Apache Airflow",
-          "AWS Glue", "Azure Data Factory", "Databricks", "Step Functions",
-          "Kafka", "Redis", "ETL Pipeline Design"
+          "LangChain", "LangGraph", "OpenAI GPT", "RAG Pipelines", "FAISS",
+          "Pinecone", "Hugging Face Transformers", "BERT / RoBERTa", "spaCy",
+          "NER", "Sentiment Analysis", "TF-IDF"
         ]
       },
       {
-        "name": "Cloud Platforms & Infrastructure",
-        "icon": "cloud",
+        "name": "Data Engineering & Big Data",
+        "icon": "database",
         "color": "green",
         "skills": [
-          "AWS (SageMaker, Lambda, EC2, EKS, API Gateway, Kinesis)",
-          "Azure (Azure ML, Blob Storage)", "Docker", "Kubernetes",
-          "Terraform", "Ray Train", "gRPC"
+          "Apache Spark", "Hadoop", "Dask", "Apache Airflow", "AWS Glue",
+          "Azure Data Factory", "Kafka", "ETL Pipeline Design"
         ]
       },
       {
-        "name": "MLOps & Model Monitoring",
+        "name": "Cloud Platforms",
         "icon": "cloud",
         "color": "purple",
         "skills": [
-          "MLflow", "GitHub Actions", "GitLab CI/CD", "Jenkins", "DVC",
-          "Evidently", "Prometheus", "Grafana", "Drift Detection",
-          "Model Registry", "Experiment Tracking"
+          "Azure (Azure ML, Azure AI Foundry, Azure Synapse Analytics)",
+          "AWS (SageMaker, EC2, Lambda, S3, Glue, EMR, EKS, Redshift)",
+          "Conda Environments"
+        ]
+      },
+      {
+        "name": "MLOps & Deployment",
+        "icon": "cloud",
+        "color": "cyan",
+        "skills": [
+          "MLflow", "Docker", "Kubernetes", "Terraform", "GitHub Actions",
+          "GitLab CI/CD", "FastAPI", "Prometheus", "Grafana",
+          "Drift Detection", "Model Registry"
         ]
       },
       {
         "name": "Model Optimization & Explainability",
         "icon": "chart",
-        "color": "cyan",
-        "skills": [
-          "SHAP", "LIME", "Optuna", "Bayesian Optimization", "Grid Search",
-          "Hyperopt", "k-Fold Cross-Validation"
-        ]
-      },
-      {
-        "name": "Databases & APIs",
-        "icon": "database",
         "color": "green",
         "skills": [
-          "PostgreSQL", "MongoDB", "REST APIs", "Microservices Architecture",
-          "gRPC", "SQLAlchemy"
+          "SHAP", "LIME", "Optuna", "Bayesian Optimization", "Grid Search",
+          "k-Fold Cross-Validation", "Hyperparameter Tuning"
         ]
       },
       {
-        "name": "Security & Compliance",
-        "icon": "code",
+        "name": "Databases",
+        "icon": "database",
         "color": "purple",
         "skills": [
-          "IAM Least-Privilege", "Data Privacy", "SOC 2", "PCI DSS",
-          "HIPAA-aware Data Handling"
+          "PostgreSQL", "MongoDB", "Amazon Redshift", "Snowflake",
+          "REST APIs", "Microservices Architecture"
         ]
       },
       {
-        "name": "Methods & Collaboration",
+        "name": "Visualization & Reporting",
         "icon": "chart",
+        "color": "cyan",
+        "skills": [
+          "Tableau", "Power BI", "Streamlit", "Plotly", "Matplotlib",
+          "Seaborn", "Executive-Level Storytelling"
+        ]
+      },
+      {
+        "name": "Methods & Soft Skills",
+        "icon": "code",
         "color": "green",
         "skills": [
           "Agile & Scrum", "Analytical Thinking", "Cross-functional Collaboration",
-          "Technical Documentation", "Ethical AI Practices"
+          "Stakeholder Communication"
         ]
       }
     ]
@@ -302,6 +315,20 @@
       "demo_visible": false,
       "featured": false,
       "category": "NLP / LLM"
+    }
+  ],
+
+  "certifications": [
+    {
+      "id": 1,
+      "name": "Microsoft Certified: Azure AI Engineer Associate",
+      "issuer": "Microsoft",
+      "issuer_short": "Microsoft",
+      "color": "blue",
+      "date": "",
+      "expiry": "",
+      "credential_id": "",
+      "verify_url": ""
     }
   ]
 }

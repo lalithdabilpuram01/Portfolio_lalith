@@ -7,6 +7,7 @@ import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Certifications from "./components/Certifications";
 import Footer from "./components/Footer";
 
 export default function App() {
@@ -53,6 +54,9 @@ export default function App() {
       <Experience experience={data.experience} />
       <Skills skills={data.skills} />
       <Projects projects={data.projects} />
+      {data.certifications?.length > 0 && (
+        <Certifications certifications={data.certifications} />
+      )}
       <Footer personal={data.personal} />
     </div>
   );
